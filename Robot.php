@@ -7,6 +7,11 @@ class Robot
         return $this->getBar();
     }
 
+    public function new_func(): string
+    {
+        return 'I am a new function';
+    }
+
     private function getFoo(): string
     {
         return 'foo';
