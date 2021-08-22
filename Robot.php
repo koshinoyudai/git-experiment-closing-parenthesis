@@ -4,7 +4,7 @@ class Robot
 {
     public function func(): string
     {
-        return $this->getBar();
+        return $this->getFoo();
     }
 
     public function new_func(): string
